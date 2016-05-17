@@ -1,4 +1,4 @@
-Unity Network Request with JavaScript
+Unity Network Request by JavaScript
 ======================================
 
 `Assets/ClickTheBall.js`
