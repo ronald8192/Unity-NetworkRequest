@@ -14,21 +14,20 @@ public class ClickBall : MonoBehaviour {
 		if(Input.GetMouseButtonDown(0)){
 			Debug.Log("Pressed left click.");
 
-			NetworkHandler nh = gameObject.AddComponent<NetworkHandler>();
-			nh.Start();
+			StudentInfoGetter infoGetter = gameObject.AddComponent<StudentInfoGetter>();
+			infoGetter.Start1();
 		}
 	}
 
 	
 }
 
-public class NetworkHandler : MonoBehaviour {
+public class StudentInfoGetter : MonoBehaviour {
 	string url = "http://127.0.0.1:3000/api/student?";
 	string queryParams = "";
 
-	public IEnumerator Start () {
-		// Create a form object for sending high score data to the server
-
+	public IEnumerator Start1() {
+		Debug.Log("Execute");
 		//POST method
 		//WWWForm form = new WWWForm();
 		//form.AddField("id", "574410b08e33397b4a000005");
