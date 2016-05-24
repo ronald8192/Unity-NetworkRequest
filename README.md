@@ -1,4 +1,5 @@
-Unity Network Request by JavaScript
+Unity Network Request by C#/JavaScript
 ======================================
 
-`Assets/ClickTheBall.js`
+JavaScript: `Assets/ClickTheBall.js`
+C#: `Assets/ClickBall.cs`
